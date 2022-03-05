@@ -1,0 +1,31 @@
+
+
+.weathercard {
+    width: clamp(300px, 25vw, 25vw);
+    height: 350px;
+    box-shadow: 15px 15px 30px rgba(0,0,0,.1);
+    background-color: rgba(10,10,100,.3);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    color: #F2F2F2;
+    transition: all 0.5s;
+}
+
+.temperature {
+    font-size: 60px;
+    text-shadow: 2px 2px 0 rgba(255,255,255,.5);
+}
+
+.city {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.country {
+    color: rgba(255,255,255,.5);
+}
+
+.weathericon {
+    width: 50%;
+    filter: blur(1px)
+}

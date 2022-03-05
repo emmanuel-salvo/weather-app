@@ -1,0 +1,28 @@
+
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar {
+    width: clamp(300px, 25vw, 25vw);
+    margin: 50px;
+    padding: 20px;
+    border: none;
+    background-color: rgba(0,0,0, .1);
+    color: #F2F2F2;
+    outline: none;
+    transition: background-color 0.5s;
+}
+
+.searchbar:focus {
+    background-color: rgba(0,0,0,.3);
+}
+
+.searchbar::placeholder {
+    color: #E2E2E2;
+}
